@@ -1,0 +1,34 @@
+/*esto es un cometario*/
+/*aplicar comentarios alas partes de la pagina web*/
+/*le aplicamos colores de fondo*/
+.contenedor {
+  background-color: blue;
+}
+.cabecera {
+  background-color: blueviolet;
+}
+.menu {
+  background-color: chartreuse;
+}
+.contenido {
+  background-color: chocolate;
+}
+.pie {
+  background-color: cornflowerblue;
+}
+
+.body {
+  background-color: darkgray;
+}
+
+/*le aplicamos una imagen de fondo al parrafo*/
+.parrafoimagen {
+  background-color: url("/img/foto1.jpg");
+}
+
+/*le aplicams un color de fondo al parrafo y le damos un atransparencia*/
+.parrafotransparencia {
+  background-color: black;
+  opacity: 75%;
+  color: whitesmoke;
+}

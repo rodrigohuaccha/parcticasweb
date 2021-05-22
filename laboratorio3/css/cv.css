@@ -1,0 +1,156 @@
+body {
+    background: linear-gradient(to right, #3525af, #9153c9);
+}
+@font-face{
+    font-family: QuiteMagical;
+    src: url(fonts/QuiteMagicalRegular-8VA2.ttf);
+}
+#general{
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+    background: white;
+}
+
+.imagen{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+}
+
+#contenido{
+    width: 100%;
+    border: 1px solid green;
+    
+}
+
+.caja2 ul > p{
+    font-size: 20px;
+}
+.texto{
+    font-size: 16px;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 80px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#contenido .caja1{
+
+    width: 20%;
+    color: white;
+    float: left;
+    margin: 20px;
+    margin-left: 60px;
+}
+
+#contenido .caja2{
+    width: 60%;
+    height: 250px;
+    
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+    line-height: 200x;
+}
+
+#contenido .caja2 > h2{
+    display: block;
+    font-size: 35px;
+    color: #3f51b5;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'normal';
+    text-shadow: 0px 0px 5px #ffeb3b;
+}
+.datospersonales >legend{
+    color: #3525af;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.academica >legend{
+    color: #f81e0f;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.academica{
+    margin-top: 20px;
+}
+
+.idiomas >legend{
+    color: #4B0082;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.idiomas{
+    margin-top: 20px;
+}
+.pasatiempos >legend{
+    color: #9ACD32;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pasatiempos{
+    margin-top: 20px;
+}
+
+.datospersonales ul >li{
+    
+    line-height: 25px;
+}
+
+
+
+
+.titulo ul >li{
+    font-size: 15px;
+}
+.caja3{
+    margin: 30px;
+    margin: 10px;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.titulo >legend{
+    color: red;
+}
+
+
+
+
+.piepeliculas >legend{
+    font-size: 20px;
+   margin-top: 30px;
+    font-weight: bold;
+    color: #9153c9;
+    margin: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.piepeliculas {
+    margin: 5px 50px;
+}
+table td >p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,54 @@
+body {
+  background-color: darkolivegreen;
+}
+.contenedor {
+  background-color: white;
+}
+/* aplicamos un estilo para que la tabla ocupe todo el ancho */
+/* aplicamos el borde a la tabla*/
+/* Quitarle el doble borde a la tabla */
+/* agregamos relleno */
+table {
+  width: 100%;
+  border: 3px solid darkblue;
+  border-collapse: collapse;
+}
+
+thead thead th,
+table tbody td {
+  border: 3px solid darkorchid;
+  padding: px;
+}
+/* aumentamos la altura de los th */
+/* alineamosal centro los valores del th */
+table thead th {
+  height: 45%;
+  text-align: center;
+  vertical-align: top;
+}
+/* agregamos un fondo y un color de la letra cunado pasamos por la fila */
+table tbody tr:hover {
+  background-color: black;
+  color: white;
+}
+/* agregamos los estilo para a tabla 1 */
+.tabla1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla1 th,
+.tabla1 th {
+    border: 1px solid gainsboro;
+    padding: 8px;
+}
+
+.tabla1 th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: darkblue;
+    color: white;
+}
+
