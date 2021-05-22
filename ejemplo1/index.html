@@ -7,82 +7,101 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title>Ejemplo 2 Maquetacion HTML</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css"  href="css/normalize.css">
 </head>
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
 <body>
-    <!-- Inicia el Contenedor -->
-    <div>
-    <!-- Inicia Cabecera -->
-    
+    <!-- Inicia el header -->
     <header>
-        <!-- Inicia el Menu -->
+        <div class="contenedor">
+            <div>
         <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+            <a href="#">Acerca de</a>
+            <a href="#">Favorito</a>
+            <a href="#">Contacto</a>
         </nav>
-        <!-- Fin del Menu -->
-    </header>
-    <!-- Fin cabecera -->
-    <!-- Inicia la Seccion Principal -->
-    <section>
-        <!-- Inicia la Imagen -->
-        <div>
-            <img src="img/foto1.jpg" alt="Foto Principal">
+    </div>
+        <div class="contenedortexto">
+            <div class="texto">
+            <h1 class="nombre">Anderson Rodrigo Huaccha Chirinos</h1>
+            <h2 class="favorito">Peliculas</h2>
         </div>
-        <!-- Fin de Imagen -->
-        <!-- Inicia Publicacion -->
-        <section>
-                <!-- Inicia Articulo -->
-                <article>
-                    <h2>Titulo del Articulo</h2>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam obcaecati amet voluptas voluptatem. Iure unde amet rem ipsam iste? Magni possimus incidunt exercitationem, fugiat dignissimos dolorem ipsa ipsam accusamus quo.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt provident molestiae quia aperiam dolores necessitatibus dolore commodi totam reiciendis, ad saepe voluptates maiores, possimus eveniet rerum tempora. Error, sed at.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat architecto veniam autem quaerat natus tempora ut quidem. Ipsum praesentium optio amet odio doloremque quis ipsa vel delectus, eligendi quia!
+    </div>
+</div>
+    </header>
+    <!-- Fin del header -->
+    <!-- Inicia la Seccion Principal -->
+    <section class="principal">
+        <!-- Inicia la Seccion Acerca de -->
+        <section class="acercade">
+        <div class="foto">
+            <img src="img/foto1.jpg" alt="Anderson Rodrigo Huaccha Chirinos">
+        </div>
+        <div class="texto">
+            <h3 class="titulo">Acerca de</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, placeat. Hic libero nesciunt culpa reiciendis est alias inventore? Tempore exercitationem necessitatibus quibusdam nulla perferendis unde recusandae ipsa provident officiis cumque.</p>
+        </div>
+        <!-- Fin de la seccion Acerca de -->
+        <!-- Inicia la Seccion favoritos -->
+        <section class="Favorito">
+            <div class="contenedor">
+                <h3 class="titulo">Peliculas</h3>
+                <div class="contenedorfavorito">
+                    <div class="Favorito">
+                        <div class="imagen">
+                            <img src="img/descarga.jpg" alt="favorito1">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">lorem Impsum</p>
+                            <p class="categoria">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam obcaecati amet voluptas voluptatem. Iure unde amet rem ipsam iste? Magni possimus incidunt exercitationem, fugiat dignissimos dolorem ipsa ipsam accusamus quo.
+                        </div>
+                    </div>
+                    <div class="Favorito">
+                        <div class="imagen">
+                            <img src="img/yoco.jpg" alt="favorito2">
+                        </div>
+                    <div class="descripcion">
+                        <p class="nombre">lorem ipsum </p>
+                        <p class="categoria">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat architecto veniam autem quaerat natus tempora ut quidem. Ipsum praesentium optio amet odio doloremque quis ipsa vel delectus, eligendi quia!
                     </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatem quis, inventore autem impedit distinctio quas rerum non voluptas, similique atque id in repudiandae commodi porro eius perferendis cum veniam.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni sapiente voluptatum ducimus fuga vel! Esse ratione temporibus architecto reprehenderit. Quos commodi, dolore nihil praesentium beatae placeat corporis dignissimos expedita magni!
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ipsum, exercitationem aliquid maiores accusamus error facere, modi non, quae pariatur doloremque dignissimos architecto nobis! Voluptas ratione quos sint aut eveniet?
-                    </p>
-                </article>
-                <!-- Fin de Articulo -->
+                    </div>
+                </div>
+            </div>
+        </div>
         </section>
-        <!-- Fin de Publicaion -->
+        <!-- Fin de la seccion favorito  -->
         
     </section>
     <!-- Fin de la Seccion Principal -->
-    <!-- Inicia Anuncios -->
-    <aside>
-        <!-- Inicia Destacados  -->
-        <div>
-            <h3>Articulo Destacados</h3>
-            <ul>
-                <li><a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-                <li><a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-                <li><a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-                <li><a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-                <li><a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-            </ul>
-        </div>
-        <!-- Fin Destacados -->
-        <!-- Inicia Informacion -->
-        <div>
-            <h3>Informacion</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nemo consectetur quos magnam itaque, vero sint dolorum reiciendis rem quo beatae in rerum voluptates aperiam facere possimus nisi iusto aliquid.</p>
-        </div>
-        <!-- Fin Informacion -->
-    </aside>
-    <!-- Fin Anuncios -->
-    <!-- Incio Pie -->
+    <!-- Inicia el footer -->
     <footer>
-        <p>Mario Antonio Huapalla Morales 2021 - Todos los Derechos Rservados</p>
+        <div class="contactanos">
+            <h3 class="titulo">contactos</h3>
+            <form class="formulario">
+                <input type="text" placeholder="nombres y apellidos" required>
+                <input type="email" placeholder="correo" required>
+                <textarea placeholder="mensaje"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <section class="redessociales">
+            <div class="contenedor">
+                <a class="twitter" href="#"><li class="fa  fa-twitter"></li></a>
+                <a class="facebook-oficial" href="#"><li class="fa fa-facebook-official"></li></a>
+                <a class="whatsapp" href="#"><li class="fa fa-whatsapp"></li></a>
+                <a class="instagram" href="#"><li class="fa fa-instagram"></li></a>
+            </div>
+        </section>
+        
+    <footer>
+        <p class="pie">Anderson Rodrigo Huaccha Chirinos 2021 </p>
     </footer>
-    <!-- Fin Pie -->
-</div>
-<!-- Fin del Contenedor -->
+    <!-- Fin footer-->
 </body>
 </html>

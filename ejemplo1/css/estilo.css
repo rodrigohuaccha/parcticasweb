@@ -1,0 +1,188 @@
+/* aplicamos estilos universales */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* aplicamos estilos al body */
+body {
+  font-family: "Open Sans";
+  font-size: 15px;
+}
+/*-----------------CABECERA----------------*/
+/* aplicamos estilos al contenedor */
+.contenedor {
+  width: 90px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* aplicamos estilos al header */
+header {
+  background: url("img/foto1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 600px;
+}
+/* aplicamos estilo para el menu */
+header nav {
+  margin: 40px 0;
+  text-align: right;
+}
+header nav a {
+  margin: 0 20px;
+  padding-bottom: 9px;
+  text-decoration: none;
+  border-bottom: 2px solid grey transparent;
+  color: turquoise;
+}
+header nav a:hover {
+  border-bottom: 2px solid olive;
+}
+/* aplicamos el estilo al contenedor texto */
+header .contenedortexto {
+  justify-content: center;
+  align-content: center;
+  margin: 190px 0;
+}
+header .contenedortexto .contenedortexto {
+  border: 2px solid blue;
+  border-radius: 3px;
+  text-align: center;
+  padding: 20px 60px;
+}
+
+header .contenedortexto .texto h1,
+header .contenedortexto .texto h2 {
+  color: brown;
+  font-weight: bolder;
+  margin: 0;
+}
+header .contenedortexto .texto .nombre {
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+header .contenedortexto .texto .favorito {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+/*----------------- FIN CABECERA ----------------*/
+/*-----------------CUERPO ----------------*/
+/*-----------------Acerca de ----------------*/
+.principal .acercade {
+  text-align: center;
+}
+.principal .acerdade .foto {
+  width: 162px;
+  height: 221px;
+  margin-top: -74px;
+}
+.principal .acercade .foto img {
+  border-radius: 46%;
+  vertical-align: top;
+  border: 6px solid blue;
+}
+.principal .acercade .texto {
+  font-weight: 500;
+  width: 80%;
+  margin: 45px auto 65px auto;
+}
+.principal .acercade .texto .titulo {
+  font-size: 23px;
+  margin-bottom: 45px;
+  font-weight: 1675px;
+  color: olivedrab;
+}
+/*----------------- Fin Acerca de ----------------*/
+/*----------------- Favorito ----------------*/
+.principal .favorito {
+  background: orchid;
+  padding: 60px 0;
+}
+.principal .favorito .titulo {
+  font-size: 40px;
+  margin-bottom: bolder;
+  font-weight: 25px;
+  color: rgb(0, 139, 58);
+  text-align: right;
+}
+
+.principal .favorito .contenedorfavorito {
+  justify-content: space-between;
+}
+
+.principal .favorito .contenedorfavorito .favorito {
+  width: 25%;
+  margin-bottom: 40px;
+}
+
+.principal .favorito .contenedorfavorito .favorito .imagen {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.principal .favorito .contenedorfavorito .favorito .imagen .img {
+  vertical-align: top;
+  width: 100%;
+  border-radius: 5px;
+}
+.principal .favorito .contenedorfavorito .favorito .descripcion {
+  text-align: right;
+}
+.principal .favorito .contenedorfavorito .favorito .descripcion .nombre {
+  font-weight: bolder;
+  color: darkgoldenrod;
+  margin-bottom: 15px;
+}
+.principal .favorito .contenedorfavorito .favorito .descripcion .categoria {
+  font-size: 15px;
+  color: grey;
+}
+/*----------------- Fin Favorito ----------------*/
+/*-----------------Fin CUERPO ----------------*/
+/*----------------- Pie ----------------*/
+footer .contactanos {
+  padding: 60px;
+}
+footer .contactanos .titulo {
+  font-size: 35px;
+  margin-bottom: 60px;
+  font-weight: bolder;
+  color: indigo;
+  text-align: center;
+}
+
+footer .contactanos .formulario {
+  justify-content: space-between;
+}
+
+footer .redessociales {
+  background: darkslateblue;
+  padding: 60px 0;
+}
+
+footer .redessociales .contenedor {
+  justify-content: center;
+}
+footer .redessociales .contenedor {
+  color: azure;
+  text-align: center;
+  width: 180px;
+  font-size: 50px;
+  padding: 15px 0;
+  margin: 0 20px;
+  border-radius: 5px;
+}
+footer .redessociales .contenedor .twitter:hover {
+  background: cyan;
+}
+footer .redessociales .contenedor .facebook-oficial:hover {
+  background: blue;
+}
+footer .redessociales .contenedor .whatsapp:hover {
+  background: green;
+}
+footer .redessociales .contenedor .instagram:hover {
+  background: grey;
+}
+footer .pie {
+  color: black;
+}
