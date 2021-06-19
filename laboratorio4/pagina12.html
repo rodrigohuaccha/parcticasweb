@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript- Parte 4</title>
+<script type="text/javascript">
+//Funciones y Procediminetos
+//Los procedimientos y funciones permiten agrupar codigo que
+//realice ciertos acciones
+//Funciones
+//Las funciones devuelven un unico valor
+//Sintaxis
+// funcion NombreFuncion(parametros){
+//   ..... programas .....
+//   return valor;
+// }
+//Parametros: son valores que pueden estar o no dentro de la funcion.
+//Si es que estuvieran en la funcion son valores que necesita la
+//funcion para realizar una operacion o una accion.
+//return: es el valor que va a devolver la funcion. este valor sera
+//importante porque define el tipo de dato de la funcion
+
+//Ejemplo 1
+//Desarrolllar una aplicacion que permita ingresar dos numeros y luego
+//calcule las 4 operaciones basicas.
+//¿Cuantas variables necesitas?
+// 6
+// ¿Que tipo de datos necesitas?
+// Real
+// ¿Cuales seria variables?
+// n1,n2,sum, res,mul,div
+//¿Que variables voy a leer?
+//n1, n2
+
+//dedicamos funciones
+function calcularSuma(num1,num2){
+    return num1+num2
+}
+
+function calcularResta(num1,num2){
+    var r=0;
+    r=num1-num2;
+    return r;
+}
+
+function calcularMultiplicacion(num1,num2){
+    return num1*num2;
+}
+
+function calcularDivision (num1,num2){
+    var d=0;
+    d=num1/num2;
+    return d;
+}
+ //declarando e inicializando variables
+var n1=0, n2=0, sum=0, res=0, num1=0, div=0;
+//capturando valores
+n1=parsePloat(prompt("Ingrese el numero1:"));
+n2=parsePloat(prompt("Ingrese el numero2:"));
+
+//Llamando a las funciones para calcular
+sum=calcularSuma(n1,n2);
+res=calcularResta(n1,n2);
+mul=calcularMultiplicacion(n1,n2);
+div=calcularDivision(n1,n2);
+//mostrando resultados
+document.write("La suma es:"+sum+"<br>")
+document.write("La resta es:"+res+"<br>")
+document.write("La multiplicaion es:"+mul+"<br>")
+document.write("La diviion es:"+div+"<br>")
+</script>
+</head>
+<body>
+    
+</body>
+</html>
