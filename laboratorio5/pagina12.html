@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase - Parte 2</title>
+    <script type="text/javascript">
+    //El servicio de base de datos en la nube que pertenece a Firebase 
+    </script>
+</head>
+<body>
+    <h1>Registro de Alumnos</h1>
+    <hr>
+    <form action="">
+        <label for="txtApe">Apellidos:</label>
+        <input type="text" name="txtApe" id="txtApe" placeholder="Ingrese sus apellidos">
+        <br>
+        <label for="txtDni">Dni:</label>
+        <input type="text" name="txtDni" id="txtDni" placeholder="Ingrese su dni">
+        <br>
+        <label for="txtDir">Direccion:</label>
+        <input type="text" name="txtDir" id="txtDir" placeholder="Ingrese su direccion">
+        <br>
+        <label for="cboDistrito">Distrito:</label>
+        <select name="cboDistrito" id="cboDistrito">
+            <option value="0">Seleccione un distrito</option>
+            <option value="1">Ancon</option>
+            <option value="2">Ate</option>
+            <option value="3">Barranco</option>
+            <option value="4">Lima</option>
+            <option value="5">Miraflores</option>
+        </select>
+        
+        <br>
+        <label for="txtTel">Telefono:</label>
+        <input type="text" name="txtTel" id="txtTel" placeholder="Ingrese su telefono">
+        <br>
+        <label for="txtCel">Celular:</label>
+        <input type="text" name="txtCel" id="txtCel" placeholder="Ingrese su Celular">
+        <br>
+        <label for="txtCor">Correo:</label>
+        <input type="text" name="txtCor" id="txtCor" placeholder="Ingrese su correo">
+        <br>
+        <label for="">Sexo:</label>
+        <input type="radio" name="Sexo" id="rbMas"><label for="rbMas">Masculino</label>
+        <input type="radio" name="Sexo" id="rbFem"><label for="rbFem">Femenino</label>
+        <input type="radio" name="Sexo" id="rbOtr"><label for="rbOtr">Otro</label>
+        <br>
+        <label for="">Estado:</label>
+        <input type="checkbox" name="chkEst" id="chkEst"><label for="chkEst">Habilitado</label>
+        <br>
+        <input type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar">
+        <input type="reset" value="Limpiar" id="btnLimpiar" name="btnLimpiar">
+    </form>
+    <!-- Agregando las bibliotecas de Firebase -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+var firebaseConfig = {
+    apiKey: "AIzaSyCpeVNBRSO51rvmvBi6GKktCzTGUwdiHv4",
+    authDomain: "proyectoweb-a902c.firebaseapp.com",
+    projectId: "proyectoweb-a902c",
+    storageBucket: "proyectoweb-a902c.appspot.com",
+    messagingSenderId: "230079119012",
+    appId: "1:230079119012:web:6d4911cd4e88ca9b9c7031",
+    measurementId: "G-N7LB2RPS1L",
+    databaseURL: "https://proyectoweb-a902c-default-rtdb.firebaseio.com/"
+
+};
+  // Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+   //declaramos una constante para las opciones de autentificaion
+const auth=firebase.auth();
+const database=firebase.database();
+</script>
+</body>
+</html>
