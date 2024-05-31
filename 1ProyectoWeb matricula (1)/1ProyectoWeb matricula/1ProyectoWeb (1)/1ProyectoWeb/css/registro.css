@@ -1,0 +1,99 @@
+body{
+    height: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://i.pinimg.com/originals/5c/72/39/5c7239c00ed63d956152a361ed7b7471.jpg ');
+    /* Enlace directo a la imagen de fondo */
+    background-size: cover;
+   
+}
+
+
+/*.row{
+    background: linear-gradient(to right, #362c6c, #2c0bd1);
+
+}*/
+
+.col-xs-12 {
+    width: 400px;
+    margin: 100px auto;
+    background-color: #C0C0C0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*width: 50%; /* Ancho del 80% del contenedor padre, ajusta según lo desees */
+    /*max-width: 300px; /* Ancho máximo de 500px, ajusta según lo desees */
+    /*margin: 80px auto; /* Centra horizontalmente */
+    /*padding: 20px; /* Espaciado interno para evitar que los elementos estén pegados a los bordes */
+    /*background-color: #f0f0f0; /* Color de fondo, ajusta según lo desees */
+    /*border-radius: 10px;*/
+
+}
+
+.formulario {
+    width: 350px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.inputs {
+    display: block;
+    margin-bottom: 5px;
+   
+}
+
+.input-field{
+    margin-bottom: 30px;
+    position: relative;
+   
+}
+
+.input-field i{
+    position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color:aqua;
+ 
+}
+
+.input-field input{
+  width: calc(100% - 30px);
+  padding-left: 50px;
+  background-color: #555;/*Reducimoselanchodelinputparaquequepaelicono*/
+  border-radius:5px ;
+  height: 3em;
+}
+
+p{
+    color: #fff;
+    text-align: center;
+}
+a{
+    color: #fff;
+}
+.btn-field input{
+    background-color: aqua;
+    margin-left: 110px;
+    /* Color verde claro */
+    color: #ffffff;
+    /* Color de texto blanco */
+    border: none;
+    /* Sin borde */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    padding: 10px 20px;
+    /* Espacio interno */
+    cursor: pointer;
+    /* Cursor al pasar */
+    display: inline-block;
+}
